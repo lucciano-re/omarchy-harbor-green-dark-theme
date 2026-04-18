@@ -12,7 +12,7 @@ See also original [Light version](https://github.com/HANCORE-linux/omarchy-harbo
 To install this theme, simply use the omarchy-theme-install command:
 
 ```bash
-omarchy-theme-install https://github.com/HANCORE-linux/omarchy-harbor-green-dark-theme.git
+omarchy-theme-install https://github.com/lucciano-re/omarchy-harbor-green-dark-theme.git
 ```
 ### License
 MIT
