@@ -1,29 +1,30 @@
 /**
-* @name base16 Discord
+* @name base16 Discord (Dark)
 * @author @bypass_
 * @version 0.1.0
-* @description Built using Aether and Pywal
+* @description Built using Aether and Pywal (Dark Mode Converted)
 * @source https://github.com/imbypass/base16-Discord
 **/
 
 :root {
-    --color00: #dfe4c4;
-    --color01: #dfe4c4;
-    --color02: #dfe4c4;
-    --color03: #d08770;
-    --color04: #5e81ac;
-    --color05: #384f54;
-    --color06: #4a8c99;
-    --color07: #5f8170;
-    --color08: #5f8170;
-    --color09: #bf616a;
-    --color10: #5e81ac;
-    --color11: #b48ead;
-    --color12: #5e81ac;
-    --color13: #b48ead;
-    --color14: #4a8c99;
-    --color15: #1c2d28;
---base00: var(--color00);
+    --color00: #1c2d28; /* Deepest Background */
+    --color01: #2a3d36; /* Lighter Background */
+    --color02: #5C8373; /* Selection/Hover Background */
+    --color03: #768A74; /* Muted/Comments */
+    --color04: #94A88E; /* Secondary Text */
+    --color05: #D4DABA; /* Primary Text */
+    --color06: #AFBD9B; /* Light Text */
+    --color07: #D4F0DD; /* Bright Text */
+    --color08: #bf616a; /* Red */
+    --color09: #A5B396; /* Orange/Yellow */
+    --color10: #B2C6A9; /* Bright Yellow */
+    --color11: #6B8C78; /* Green */
+    --color12: #768A74; /* Cyan */
+    --color13: #80957B; /* Blue */
+    --color14: #b48ead; /* Magenta */
+    --color15: #5C8373; /* Alt/Extra */
+
+    --base00: var(--color00);
     --base01: var(--color01);
     --base02: var(--color02);
     --base03: var(--color03);
@@ -127,9 +128,6 @@
     --custom-poll-style-vote-percentage: var(--base04) !important;
     --deprecated-text-input-bg: var(--base01) !important;
     --deprecated-text-input-border: var(--base02) !important;
-    /*--font-display: var(--font, "gg sans") !important;
-    --font-headline: var(--font, "gg sans") !important;
-    --font-primary: var(--font, "gg sans") !important;*/
     --green-330: var(--base0B) !important;
     --green-360: var(--base0B) !important;
     --green-300: var(--base0B) !important;
@@ -630,14 +628,14 @@ div[class*="numberBadge"] {
     }
 }
 
-/* --- Light Theme Fix? --- */
+/* --- Dark Theme Fix --- */
 .theme-light {
-    --base01: color-mix(in srgb, var(--color00) 95%, black) !important;
-    --base02: color-mix(in srgb, var(--color00) 85%, black) !important;
-    --base03: color-mix(in srgb, var(--color00) 80%, black) !important;
-    --base04: color-mix(in srgb, var(--color00) 70%, black) !important;
-    --base06: color-mix(in srgb, var(--color05) 95%, white) !important;
-    --base07: color-mix(in srgb, var(--color05) 90%, white) !important;
+    --base01: color-mix(in srgb, var(--color05) 95%, white) !important;
+    --base02: color-mix(in srgb, var(--color05) 85%, white) !important;
+    --base03: color-mix(in srgb, var(--color05) 80%, white) !important;
+    --base04: color-mix(in srgb, var(--color05) 70%, white) !important;
+    --base06: color-mix(in srgb, var(--color00) 95%, black) !important;
+    --base07: color-mix(in srgb, var(--color00) 90%, black) !important;
 }
 
 [class*="sidebar"]::after {

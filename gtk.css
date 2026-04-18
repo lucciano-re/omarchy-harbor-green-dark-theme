@@ -1,21 +1,21 @@
-    @define-color background     #dfe4c4;
-    @define-color foreground     #1c2d28;
-    @define-color black          #dfe4c4;
+    @define-color background     #1f302a;
+    @define-color foreground     #D4DABA;
+    @define-color black          #1f302a;
     @define-color red            #bf616a;
-    @define-color green          #5f745d;
-    @define-color yellow         #d08770;
-    @define-color blue           #5e81ac;
+    @define-color green          #6B8C78;
+    @define-color yellow         #A5B396;
+    @define-color blue           #5C8373;
     @define-color magenta        #b48ead;
-    @define-color cyan           #4a8c99;
-    @define-color white          #384f54;
-    @define-color bright_black   #5f8170;
+    @define-color cyan           #768A74;
+    @define-color white          #D4DABA;
+    @define-color bright_black   #5C8373;
     @define-color bright_red     #bf616a;
-    @define-color bright_green   #6b8c4f;
-    @define-color bright_yellow  #d08770;
-    @define-color bright_blue    #5e81ac;
+    @define-color bright_green   #94A88E;
+    @define-color bright_yellow  #B2C6A9;
+    @define-color bright_blue    #80957B;
     @define-color bright_magenta #b48ead;
-    @define-color bright_cyan    #4a8c99;
-    @define-color bright_white   #1c2d28;
+    @define-color bright_cyan    #AFBD9B;
+    @define-color bright_white   #D4F0DD;
 
     @define-color accent_bg_color @blue;
     @define-color accent_fg_color @background;
@@ -161,6 +161,6 @@
     }
 
     /* .svg-icon {
-        filter: invert(79%) sepia(18%) saturate(611%) hue-rotate(192deg)
-            brightness(103%) contrast(94%);
+        filter: invert(94%) sepia(8%) saturate(732%) hue-rotate(54deg) 
+            brightness(92%) contrast(88%);
     } */

@@ -1,26 +1,26 @@
-name: Aether
-accent: "#5e81ac"
-cursor: "#5e81ac"
-background: "#dfe4c4"
-foreground: "#1c2d28"
+name: Aether Dark
+accent: "#5C8373"
+cursor: "#5C8373"
+background: "#1c2d28"
+foreground: "#D4DABA"
 details: darker
 
 terminal_colors:
   normal:
-    black:   "#dfe4c4"
+    black:   "#1c2d28"
     red:     "#bf616a"
-    green:   "#5f745d"
-    yellow:  "#d08770"
-    blue:    "#5e81ac"
+    green:   "#6B8C78"
+    yellow:  "#A5B396"
+    blue:    "#5C8373"
     magenta: "#b48ead"
-    cyan:    "#4a8c99"
-    white:   "#384f54"
+    cyan:    "#768A74"
+    white:   "#D4DABA"
   bright:
-    black:   "#5f8170"
+    black:   "#5C8373"
     red:     "#bf616a"
-    green:   "#6b8c4f"
-    yellow:  "#d08770"
-    blue:    "#5e81ac"
+    green:   "#94A88E"
+    yellow:  "#B2C6A9"
+    blue:    "#80957B"
     magenta: "#b48ead"
-    cyan:    "#4a8c99"
-    white:   "#1c2d28"
+    cyan:    "#AFBD9B"
+    white:   "#D4F0DD"

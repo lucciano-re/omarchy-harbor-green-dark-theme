@@ -1,8 +1,8 @@
-@define-color background-color #dfe4c4;
-@define-color border-color #253631;
-@define-color label #5f745d;
-@define-color image #5f745d;
-@define-color progress #253631;
+@define-color background-color #1c2d28;
+@define-color border-color #D4DABA;
+@define-color label #6B8C78;
+@define-color image #6B8C78;
+@define-color progress #D4DABA;
 
 /* Cancel out Omarchy settings */
 window:not(:backdrop),
@@ -24,5 +24,5 @@ window:backdrop #container {
     background-color: @background-color;
     padding: 12px;
     background-clip: padding-box;
-    box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.4); /* Slightly darkened shadow for visibility on dark backgrounds */
 }

@@ -1,10 +1,10 @@
-@define-color selected-text #384f54;
-@define-color text #5f745d;
-@define-color base #dfe4c4;
-@define-color border #5f745d;
-@define-color border2 #253631;
-@define-color foreground #6b8c4f;
-@define-color background #dfe4c4;
+@define-color selected-text #D4F0DD;
+@define-color text #D4DABA;
+@define-color base #1c2d28;
+@define-color border #5C8373;
+@define-color border2 #80957B;
+@define-color foreground #D4DABA;
+@define-color background #1c2d28;
 
 window * {
     all: unset;
@@ -31,7 +31,7 @@ window .symbols {
 window .box-wrapper {
     background: alpha(@base, 1);           /* dark transparency */
     border: 2px solid alpha(@border2, 0.65);    /* visible border */
-    border-radius: 5px;
+    border-radius: 12px;
     padding: 4px;
     margin: 0;
     box-shadow: 0 2px 12px alpha(black, 0.25);
@@ -42,13 +42,13 @@ window .box-wrapper {
 
 window .search-container {
     border: 2px solid alpha(@border2, 0.4);    /* visible border */
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 6px 6px;
-    margin: 0x;
+    margin: 0px;
     background: alpha(@border, 0.45);            /* slightly transparent */
         box-shadow:
-        0 0 3px rgba(95, 129, 112, 0.4),
-        0 0 3px rgba(95, 129, 112, 0.4);
+        0 0 3px rgba(92, 131, 115, 0.4),
+        0 0 3px rgba(92, 131, 115, 0.4);
     backdrop-filter: blur(1px);
     line-height: 1em;
     color: @selected-text;
@@ -62,7 +62,7 @@ window .input {
 
 window .preview {
     border: 0px solid alpha(@border, 0.65);
-    border-radius: 4px;
+    border-radius: 10px;
     background: alpha(@base, 0.5);
     color: @text;
     padding: 10px 10px 10px;
@@ -74,13 +74,13 @@ window .preview {
 
 child:selected {
     border: 2px solid alpha(@border2, 0.4);
-    border-radius: 4px;
-    background-color: mix(#5f745d, @background, 0.85);
+    border-radius: 10px;
+    background-color: mix(#6B8C78, @background, 0.85);
     transition: all 0.15s ease-out;
     transition: background-color 0s ease-out;
     box-shadow:
-        0 0 3px rgba(95, 129, 112, 0.4),
-        0 0 3px rgba(95, 129, 112, 0.4);
+        0 0 3px rgba(92, 131, 115, 0.4),
+        0 0 3px rgba(92, 131, 115, 0.4);
 }
 child:selected .item-box {
     
